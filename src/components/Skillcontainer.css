@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+
+.skillcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.skillcontainer_text {
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  margin: 30px;
+  font-family: "Fira Code", monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+.skillcontainer_text h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.skillcontainer_slider {
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.skillcontainer_skillset h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.skillcontainer_skillset {
+  font-size: 32px;
+}
+.skillcontainer_skillset img {
+  width: 100px;
+  height: 100px;
+}
+.skillcontainer_slider .MuiLinearProgress-colorPrimary {
+  background-color: rgb(80, 80, 80, 0.5);
+}
+.skillcontainer_slider1 .MuiLinearProgress-barColorPrimary {
+  background-color: #0091e5;
+}
+.skillcontainer_slider2 .MuiLinearProgress-barColorPrimary {
+  background-color: #60dafa;
+}
+.skillcontainer_slider3 .MuiLinearProgress-barColorPrimary {
+  background-color: #82cc29;
+}
+.skillcontainer_slider4 .MuiLinearProgress-barColorPrimary {
+  background-color: yellow;
+}
+.skillcontainer_slider5 .MuiLinearProgress-barColorPrimary {
+  background-color: #f0662b;
+}
+.skillcontainer_slider6 .MuiLinearProgress-barColorPrimary {
+  background-color: #33a9dc;
+}
+.skillcontainer_slider7 .MuiLinearProgress-barColorPrimary {
+  background-color: #e74d3d;
+}
+.skillcontainer_slider8 .MuiLinearProgress-barColorPrimary {
+  background-color: #f6b93b;
+}
+.skillcontainer_slider9 .MuiLinearProgress-barColorPrimary {
+  background-color: lightgreen;
+}
+.skillcontainer_slider10 .MuiLinearProgress-barColorPrimary {
+  background-color: lime;
+}
+.skillcontainer_slider11 .MuiLinearProgress-barColorPrimary {
+  background-color: #326790;
+}
+.skillcontainer_slider12 .MuiLinearProgress-barColorPrimary {
+  background-color: #f5de19;
+}
+.skillcontainer_slider13 .MuiLinearProgress-barColorPrimary {
+  background-color: greenyellow;
+}
+.skillcontainer_slider14 .MuiLinearProgress-barColorPrimary {
+  background-color: #cf649a;
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Fira Code", monospace;
+}
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f64c08;
+  margin-bottom: -20px;
+}
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background: white;
+}
+.contact_container a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.contact_container p {
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.contact_container span {
+  color: #f64c08;
+}
+.contact_icons a button span .MuiSvgIcon-root {
+  font-size: 40px;
+  color: black;
+  transition: 1s ease-in-out;
+}
+.contact_icons a button span .MuiSvgIcon-root:hover {
+  color: #f64c08;
+  transform: rotateZ(360deg);
+}
+.copyright {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #bba79f;
+  color: white;
+}
